@@ -1,0 +1,89 @@
+@charset "UTF-8";
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    background-color: rgb(8, 1, 100);
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+header {
+    background-color: #177E89;
+    color: #FFC857;
+    margin-bottom: 30px;
+    padding: 10px;
+    box-shadow: 0px 4px 7px rgba(0, 0, 0, 0.616);
+}
+
+header h1 {
+    text-align: center;
+    font-size: 2.5em;
+}
+
+header h2 {
+    text-align: center;
+    font-size: 1em;
+    padding: 10px;
+}
+
+fieldset {
+    background-color: rgba(255, 255, 255, 0.856);
+    color: black;
+    margin: 10px;
+    padding: 10px;
+    border-radius: 5px;
+    width: 400px;
+    margin: auto; 
+    margin-bottom: 30px;
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.733);
+}
+
+fieldset legend {
+    font-weight: bold;
+    font-size: 1.8em;
+    background-color: gray;
+    padding: 5px;
+    border-radius: 5px;
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.815);
+    text-align: center;
+}
+
+input#isug {
+    width: 99.5%;
+    height: 70px;
+    
+}
+
+p#control {
+    margin: auto;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+input#sub, #reset  {
+    width: 100px;
+    height: 30px;
+}
+
+input#sub:hover, #reset:hover {
+    background-color: gray;
+}
+
+footer {
+    background-color: #177E89;
+    color: #FFC857;
+    padding: 10px;
+    text-align: center;
+}
+
+footer a {
+    color: #FFC857;
+    text-decoration: none;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}

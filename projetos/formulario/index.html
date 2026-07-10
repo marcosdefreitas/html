@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Boas Vindas</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Seja Bem-Vindo!</h1>
+        <h2>Ajude o criador desse site respondendo esse formuário!</h2>
+    </header>
+    <form action="end.html" method="post">
+        <fieldset>
+            <legend>Informações Pessoais</legend>
+            <section>
+                <label for="inome">Nome Completo:</label>
+                <input type="text"
+                name="nome"
+                id="inome"
+                required
+                minlength="5"> <br> <br>
+            </section>
+            
+            <section>
+                <label for="iemail">E-Mail:</label>
+                <input type="text"
+                name="email"
+                id="iemail"> <br> <br>
+            </section>
+
+            <label for="itel">Telefone:</label>
+            <input type="tel" 
+            name="tel" 
+            id="itel"
+            placeholder="(xx) xxxxx-xxxx"
+            required> <br><br>
+
+            <section>
+                <label for="igenero">Gênero:</label> <br>
+                <input type="radio"
+                name="genero"
+                id="igenmas">
+                Masculino <br>
+                <input type="radio"
+                name="genero"
+                id="igenfem"
+                required>
+                Feminino <br><br>
+            </section>
+
+            <section>
+                <label for="idata">Data de Nascimento:</label>
+                <input type="date"
+                name="data"
+                id="idata"
+                required>
+            </section>
+        </fieldset>
+        <fieldset>
+            <legend>Informações Extras</legend>
+            <section>
+                <label for="iedu">Qual seu nível de escolaridade?</label> <br><br>
+                <input type="radio"
+                name="edu"
+                id="iedu1">
+                Ensino Fundamental I <br>
+                <input type="radio"
+                name="edu"
+                id="iedu2">
+                Ensino Fundamental II <br>
+                <input type="radio"
+                name="edu"
+                id="iedu3">
+                Ensino Médio <br>
+                <input type="radio"
+                name="edu"
+                id="iedu4">
+                Ensino Superior <br> <br>
+            </section>
+
+            <section>
+                <label for="iq1">Você gosta de pesquisar/estudar sobre TI (Tecnologia da Informação)?</label> <br>
+                <input type="radio" name="q1" id="iq1s">
+                Sim <br>
+                <input type="radio" name="q1" id="iq1n">
+                Não <br> <br>
+            </section>
+
+            <section>
+                <label for="iq2">Você gostou de responder esse formulário?</label> <br>
+                <input type="radio" name="q2" id="iq2s">
+                Sim <br>
+                <input type="radio" name="q2" id="iq2n">
+                Não <br><br>
+            </section>
+
+            <section>
+                <label for="isug">Deixe uma mensagem para o criador desse Forms:</label>
+                <input type="text" name="sug" id="isug"
+                placeholder="Digite aqui...">
+            </section>
+        </fieldset> <br>
+        <p id="control">
+            <input type="submit" value="Enviar" id="sub">
+            <input type="reset" value="Limpar tudo" id="reset">
+        </p>
+    </form>
+    <footer>
+        <p>
+            Site criado por <strong>Marcos de Freitas</strong> | <a href="https://github.com/marcosdefreitas/" target="_blank">https:github.com/marcosdefreitas/</a>
+        </p>
+    </footer>
+</body>
+</html>
