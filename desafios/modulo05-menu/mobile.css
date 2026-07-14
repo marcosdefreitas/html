@@ -1,0 +1,18 @@
+@charset "UTF-8";
+
+header {
+    flex-flow: column nowrap;
+}
+
+header h1 {
+    flex: 40px;
+}
+
+nav {
+    flex-flow: column nowrap;
+    width: 80vw;
+}
+
+#burguer {
+    display: inline-block;
+}
