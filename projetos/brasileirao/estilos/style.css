@@ -1,0 +1,49 @@
+@charset "UTF-8";
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+/*
+Azul: #4357AD
+Verde: #0EAD69
+Amarelo: #FADF7F
+Marrom: #D9B26F
+Creme: #F2E29F
+*/
+body {
+    background-color: #F2E29F;
+}
+
+header {
+    background-color: #4357AD;
+    padding: 10px;
+}
+
+header h1 {
+    color: #FADF7F;
+    text-align: center;
+}
+
+nav {
+    background-color: #0EAD69;
+    display: flex;
+    padding: 5px;
+    justify-content: space-evenly;
+}
+
+nav ul a {
+    font-size: 1.2em;
+    color: #FADF7F;
+    text-decoration: none;
+    transition-duration: 0.2s;
+    padding: 5px;
+    justify-content: center;
+}
+
+nav ul a:hover {
+    background-color: #F2E29F;
+    color: #D9B26F;
+    transition-duration: 0.2s;;
+}
